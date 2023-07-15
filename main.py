@@ -6,9 +6,9 @@ import OnboardingTutorial
 import ssl as ssl_lib
 import certifi
 
-token = "xoxb-5570314117252-5572669801606-6jeGWgW10HByc0l0q2PUXu0H"
+token = "xoxb-5570314117252-5572669801606-7ATIHjgu7bzmMxFy0woT8eGw"
 signing_secret = "9438d28b495b91a3ce49cf9428438f3c"
-ml_model_url = "https://17ffcdc1dcbb6b5923.gradio.live/"
+ml_model_url = "https://78e77af553e04e03a3.gradio.live/"
 ssl_context = ssl_lib.create_default_context(cafile=certifi.where())
 app = App(token=token, signing_secret=signing_secret)
 onboarding_tutorials_sent = {}
